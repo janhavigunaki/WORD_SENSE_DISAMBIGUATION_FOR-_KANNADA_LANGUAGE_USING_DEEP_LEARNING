@@ -56,16 +56,16 @@ Evaluated on a strict **lemma-grouped split** (5,645 train / 1,222 validation / 
 pip install torch pyiwn gradio
 ```
 
-### 2. Project Structure
+### 2. Project Structure: Jupyter source files which can be converted to python executable files 
 ```text
-├── WSD_kannada.py          # Model development and training and accuracy, loss calculation executable file
-├── ALL_WSD_functions.py     # All required functions like tokenizer, clean text, lemmatizers executable file
-├── WSD_GUI.py      # User interface executable file for deployment
-├── WSD_kannada.ipynb             
-├──ALL_WSD_functions.ipynb
-└──WSD_GUI.ipynb      
+├── WSD_kannada.ipynb      # Model training file which also contains accuracy and loss graphs      
+├──ALL_WSD_functions.ipynb # Contain all the functions like lemmatizer, tokenizer, cleaning data which will be used in gui
+├──WSD_GUI.ipynb      # GUI which contains the UI and model deployment
+├──Lemmatized_kannada_words.csv # data set which contains sentence and target words
+├──annotation_templete.csv  # annotations developed during training
+└──gold_senseID.csv    # gold sense ids for the words from the dataset
 ```
-
+Note: All the Jupyter source files need to be converted to the python executable files to deploy and run the project functions
 ### 3. Running the Application
 ```bash
 python app.py
