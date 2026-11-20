@@ -58,11 +58,12 @@ pip install torch pyiwn gradio
 
 ### 2. Project Structure
 ```text
-├── clean.py           # Unicode NFC normalization, tokenization & akshara-aware lemmatiser
-├── wsd_backend.py     # IndoWordNet loader, feature hashing & dataset generator
-├── nlp_engine.py      # PyTorch Two-Tower model definition & inference logic
-├── app.py             # Gradio web interface for interactive sense disambiguation
-└── requirements.txt   # Project dependencies
+├── WSD_kannada.py          # Model development and training and accuracy, loss calculation executable file
+├── ALL_WSD_functions.py     # All required functions like tokenizer, clean text, lemmatizers executable file
+├── WSD_GUI.py      # User interface executable file for deployment
+├── WSD_kannada.ipynb             
+├──ALL_WSD_functions.ipynb
+└──WSD_GUI.ipynb      
 ```
 
 ### 3. Running the Application
