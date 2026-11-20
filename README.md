@@ -79,16 +79,3 @@ Enter a Kannada sentence along with the ambiguous target word (and optional lemm
 * Incorporating a dedicated Kannada morphological analyser.
 * Expanding the human-annotated gold evaluation dataset and exposing the ranker as a REST API / browser plug-in.
 
----
-
-## 📚 Citation
-
-If you use this work in your research or applications, please cite:
-```bibtex
-@article{gunaki2026kannadawsd,
-  title={Word Sense Disambiguation for Kannada Language Using Deep-Learning Techniques},
-  author={Gunaki, Janhavi Vijaykumar and Halangali, Gouramma and Jangamshetti, Ashwini Prakash and Solapur, Soumya and Koluragi, Gurudevi},
-  institution={BLDEA’s V. P. Dr. P. G. Halakatti College of Engineering and Technology, Vijayapura},
-  year={2026}
-}
-```
